@@ -1,0 +1,45 @@
+:root {
+  --background: hsl(47, 41%, 93%);
+}
+
+@font-face {
+    font-family:'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      //local('Aleo-Regular'),
+      url(fonts/Aleo/Aleo-Regular.otf) format('otf')
+}
+@font-face {
+    font-family:'Aleo';
+    font-style: bold;
+    font-weight: 400;
+    src:
+      //local('Aleo-Bold'),
+      url(fonts/Aleo/Aleo-Bold.otf) format('otf')
+}
+@font-face {
+    font-family:'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    src:
+      local('Aleo-Italic'),
+      url(https://localhost/janatrick/wp-content/themes/janatrick/assets/fonts/Aleo/Aleo-Italic.otf) format('otf')
+}
+@font-face {
+    font-family:'Heading';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      //local('Aleo-Bold'),
+      url(https://localhost/janatrick/wp-content/themes/janatrick/assets/fonts/Aleo/Aleo-Italic.otf) format('otf')
+}
+body{
+  background-color: var(--background);
+  font-family: 'Aleo', Arial, sans-serif;
+  font-style: italic;
+}
+h1{
+  font-family: 'Heading', Arial, sans-serif;
+  //font-style: bold;
+}
